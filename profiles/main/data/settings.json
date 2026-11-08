@@ -1,0 +1,140 @@
+{
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "cpp": false,
+        "python": false,
+        "javascript": true,
+        "rust": false
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "gopls": {
+        "ui.semanticTokens": true
+    },
+    "editor.fontWeight": "500",
+    "vscode_custom_css.imports": [
+        "file:///Users/doqin/.vscode-ui-font.css"
+    ],
+    "git.autofetch": true,
+    "makefile.configureOnOpen": true,
+    "cmake.useCMakePresets": "always",
+    "workbench.iconTheme": "symbols",
+    "editor.fontLigatures": true,
+    "workbench.experimental.share.enabled": true,
+    "terminal.integrated.fontSize": 13,
+    "chat.commandCenter.enabled": false,
+    "workbench.startupEditor": "none",
+    "atlascode.bitbucket.enabled": true,
+    "redhat.telemetry.enabled": true,
+    "atlascode.jira.enabled": false,
+    "C_Cpp.autocompleteAddParentheses": true,
+    "lldb.suppressUpdateNotifications": true,
+    "settingsSync.ignoredSettings": [
+        "C_Cpp.intelliSenseEngine"
+    ],
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.parameterTypes.enabled": true,
+    "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "typescript.inlayHints.variableTypes.enabled": true,
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "javascript.inlayHints.parameterTypes.enabled": true,
+    "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "javascript.inlayHints.variableTypes.enabled": true,
+    "editor.largeFileOptimizations": false,
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "python.terminal.useEnvFile": true,
+    "cmake.additionalCompilerSearchDirs": [
+        "C:/msys64/mingw32/bin",
+        "C:/msys64/mingw64/bin",
+        "C:/msys64/clang32/bin",
+        "C:/msys64/clang64/bin",
+        "C:/msys64/clangarm64/bin",
+        "C:/msys64/ucrt64/bin"
+    ],
+    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.inlayHints.callArgumentNames": "all",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "editor.wordWrap": "on",
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "bottom",
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
+    "csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
+    "csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": true,
+    "csharp.inlayHints.enableInlayHintsForTypes": true,
+    "dotnet.inlayHints.enableInlayHintsForObjectCreationParameters": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.findRefsInBackgroundThread": true,
+    "python.testing.pytestArgs": [
+        "-s"
+    ],
+    "zig.zls.enabled": "on",
+    "d.dubCompiler": "dmd.EXE",
+    "chat.viewSessions.orientation": "stacked",
+    "chat.tools.terminal.autoApprove": {
+        "cargo check": true
+    },
+    "yaml.disableSchemaDetection": [
+        "**/.github/workflows/*.yml",
+        "**/.github/workflows/*.yaml",
+        "**/.gitea/workflows/*.yml",
+        "**/.gitea/workflows/*.yaml",
+        "**/.forgejo/workflows/*.yml",
+        "**/.forgejo/workflows/*.yaml"
+    ],
+    "chat.titleBar.openInAgentsWindow.enabled": false,
+    "window.density.layout": "compact",
+    "window.restoreWindows": "none",
+    "claudeCode.hideOnboarding": true,
+    "claudeCode.preferredLocation": "panel",
+    "editor.linkedEditing": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.tabWidth": 4,
+    "cSpell.userWords": [
+        "DEPLOYABLES",
+        "Typst"
+    ],
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "cSpell.language": "en,vi",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.browser.searchEngine": "duckduckgo",
+    "workbench.browser.showInTitleBar": true,
+    "dart.flutterSdkPath": "C:\\Users\\Azalea\\flutter",
+    "yaml.schemas": {
+        "file:///c%3A/Users/Azalea/.vscode/extensions/continue.continue-2.0.0-win32-x64/config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ]
+    }
+}
